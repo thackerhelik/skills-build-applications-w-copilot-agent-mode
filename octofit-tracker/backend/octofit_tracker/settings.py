@@ -25,7 +25,8 @@ SECRET_KEY = "django-insecure-la)v4)ib#mzd!!xzhb^!bn-0(krpx_qqaci4&_0g#)de8r5y)a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Add the codespace URL and localhost to ALLOWED_HOSTS
+ALLOWED_HOSTS = ['curly-sniffle-jj4jww4rw943qj5g-8000.app.github.dev', 'localhost']
 
 
 # Application definition
